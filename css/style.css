@@ -126,35 +126,20 @@ main header{
   }
 .header_picture{
   width: 100%;
-  
+
 }
-@media(min-width:1023px){
 main header{
       padding:50px 30px
   }
     }
 
 main header img{
-      border-radius:50%;
-      margin:30px 0 10px;
-      max-width:80%;
-      height:auto;
-      width:250px;
     }
 main header .intro-text{
     max-width:675px;
     text-align:center;
     margin-bottom:30px;
   }
-@media(min-width:1023px){
-main header .intro-text{
-      text-align:right;
-      width:610px
-  }
-    }
-main header .intro-text .skills{
-      font-size:1.15em;
-    }
 main section{
     background:#eee;
     padding:40px 0;
