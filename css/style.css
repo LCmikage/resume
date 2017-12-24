@@ -124,7 +124,10 @@ main >*:not(.scroll-top){
   max-width: 100%;
   float:left;
 }
-
+.header_text{
+  font-size: 30px;
+  float:right;
+}
 main section{
     background:#eee;
     padding:40px 0;
