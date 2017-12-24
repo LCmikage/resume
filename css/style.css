@@ -356,3 +356,13 @@ hr.star-dark:after{
     padding-left: 0;
     padding-right: 0;
 }
+.height393{
+  height:393px;
+}
+.carousel-caption{
+  font-family: lobster;
+  font-size:50px;
+  top: 30%;
+  left: 1%;
+  padding:0;
+}
