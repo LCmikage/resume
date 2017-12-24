@@ -124,10 +124,7 @@ main >*:not(.scroll-top){
   width: 50%;
   float:left;
 }
-.header_picture{
-  float:right;
-}
-main header{
+.main header{
       padding:50px 30px
   }
 
