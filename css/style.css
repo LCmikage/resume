@@ -39,7 +39,7 @@ footer #footer-above{
 }
 #banner{
   background-color:#722872 !important;
-  height:80px;
+  height:40px;
   -webkit-box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-color:#592059;
@@ -344,22 +344,15 @@ hr.star-dark:after{
       color:#888;
       background-color:#eee;
     }
-<<<<<<< HEAD
-
-#myCarousel {
-      background-repeat: no-repeat;
-      background-size: cover;
-      padding-bottom: auto;
-      margin-top: -25px;
-      height: 40%;
-      width: 100%;
-      padding-left: 0;
-      padding-right: 0;
-    }
 
 
-    .carousel-caption{
-      top: 30%;
-    }
-=======
->>>>>>> f26b1eccd1fac78954407ba5233bd5c025c01de3
+.carousel {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: auto;
+    margin-top: -25px;
+    height: 40%;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}

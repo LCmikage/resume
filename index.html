@@ -18,17 +18,54 @@
         <li><a class="scrollable" href="#top">首页</a></li>
         <li><a class="scrollable" href="#portfolio">关于我们</a></li>
         <li><a class="scrollable" href="#contact">联系我们</a></li>
-        <li><a class="scrollable" href="#portfolio">合作洽谈</a></li>
-        <li><a class="scrollable" href="#contact">联系方式</a></li>
+        <li><a class="scrollable">合作洽谈</a></li>
+        <li><a class="scrollable">联系方式</a></li>
       </ul>
     </nav>
   </div>
-</div>
-  <div class="header_picture">
-  </div>
-</div>
 </header>
 <main>
+    <section id="carousel">
+    <div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href=" ">
+                    <img src="https://ww4.sinaimg.cn/large/006tNbRwgy1fd9zj4zdvvj315o0kuwia.jpg">
+                    <div class="carousel-caption"></div>
+                </a >
+            </div>
+            <div class="item">
+                <a href="javascript:;">
+                    <img src="https://ww3.sinaimg.cn/large/006tNbRwgy1fdasnwkm3tj315o0kuado.jpg">
+                    <div class="carousel-caption"></div>
+                </a >
+            </div>
+            <div class="item">
+                <a href="javascript:;">
+                    <img src="https://ww3.sinaimg.cn/large/006tNbRwgy1fdat9p65qfj31040i2adf.jpg">
+                    <div class="carousel-caption"></div>
+                </a >
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a >
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a >
+    </div>
+    </section>
   <!-- Gallery Grid Section-->
   <section id="portfolio">
     <h2>Portfolio</h2>
@@ -49,19 +86,19 @@
     <div>
       <form id="contactForm" novalidate="">
         <div class="form-item">
-          <label for="“name”">Name</label>
+          <label for="name">Name</label>
           <input id="name" type="text" placeholder="Name" required=""/>
         </div>
         <div class="form-item">
-          <label for="“email”">Email Address</label>
+          <label for="email">Email Address</label>
           <input id="email" type="email" placeholder="Email Address" required=""/>
         </div>
         <div class="form-item">
-          <label for="“phone”">Phone Number</label>
+          <label for="phone">Phone Number</label>
           <input id="phone" type="tel" placeholder="Phone Number" required=""/>
         </div>
         <div class="form-item">
-          <label for="“message”">Message</label>
+          <label for="message">Message</label>
           <textarea id="message" rows="5" placeholder="Message" required=""></textarea>
         </div><br/>
         <button type="submit">Send</button>
