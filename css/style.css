@@ -344,6 +344,7 @@ hr.star-dark:after{
       color:#888;
       background-color:#eee;
     }
+<<<<<<< HEAD
 
 #myCarousel {
       background-repeat: no-repeat;
@@ -360,3 +361,5 @@ hr.star-dark:after{
     .carousel-caption{
       top: 30%;
     }
+=======
+>>>>>>> f26b1eccd1fac78954407ba5233bd5c025c01de3
